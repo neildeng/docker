@@ -1,4 +1,4 @@
 redis/data/*.rdb
 
 
-index/log/*.log
+indexer/log/*.log
