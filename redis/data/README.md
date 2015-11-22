@@ -1,2 +1,2 @@
-the dmp file of redis
+the rdb folder for redis
 
