@@ -1,5 +1,5 @@
 kibana:
-  image: kibana
+  image: docker.io/kibana:4.2.1
   hostname: kibana
   ports:
   - 5601:5601
