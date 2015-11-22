@@ -2,6 +2,3 @@ redis/data/*.rdb
 
 
 indexer/log/*.log
-
-
-shipper/log/*.log
