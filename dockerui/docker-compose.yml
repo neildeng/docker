@@ -1,5 +1,5 @@
 dockerui:
-    image: dockerui/dockerui
+    image: dockerui/dockerui:0.7.0
     privileged: true
     hostname: dockerui
     restart: always
