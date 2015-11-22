@@ -1,0 +1,7 @@
+indexer:
+  image: logstash:2.0.0
+  hostname: indexer
+  volumes:
+  - ./config:/etc/logstash/conf.g
+  - ./log:/var/log
+  command: logstash agent -f /etc/logstash/conf.g/logstash-indexer.conf
