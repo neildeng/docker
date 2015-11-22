@@ -1,3 +1,4 @@
-redis/data/*.dmp
+redis/data/*.rdb
 
 
+index/log/*.log
