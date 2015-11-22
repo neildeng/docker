@@ -1,0 +1,2 @@
+{:timestamp=>"2015-11-22T14:09:36.819000+0000", :message=>"SIGTERM received. Shutting down the pipeline.", :level=>:warn}
+{:timestamp=>"2015-11-22T14:10:20.117000+0000", :message=>"SIGTERM received. Shutting down the pipeline.", :level=>:warn}
