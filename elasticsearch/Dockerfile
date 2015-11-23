@@ -15,11 +15,13 @@ RUN adduser elasticsearch
 RUN chown -R elasticsearch:elasticsearch elasticsearch-${ES_VER}
 RUN su
 
+RUN elasticsearch-${ES_VER}/bin/plugin install polyfractal/elasticsearch-inquisitor
 RUN elasticsearch-${ES_VER}/bin/plugin install mobz/elasticsearch-head
 RUN elasticsearch-${ES_VER}/bin/plugin install royrusso/elasticsearch-HQ
 #RUN elasticsearch-${ES_VER}/bin/plugin install karmi/elasticsearch-paramedic
 #RUN elasticsearch-${ES_VER}/bin/plugin install polyfractal/elasticsearch-segmentspy
 #RUN elasticsearch-${ES_VER}/bin/plugin install xyu/elasticsearch-whatson
+RUN elasticsearch-${ES_VER}/bin/plugin install jettro/elasticsearch-gui
 
 EXPOSE 9300
 EXPOSE 9200

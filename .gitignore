@@ -2,3 +2,6 @@ redis/data/*.rdb
 
 
 indexer/log/*.log
+
+jbosseap/files/*
+
