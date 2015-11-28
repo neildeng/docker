@@ -1,9 +1,11 @@
-es0:
-    image: shona/es
-    hostname: es0
+es:
+    image: neildeng/elasticsearch:2.1.0
+    hostname: es
     privileged: true
     ports:
     - 9200:9200
     - 9300:9300
     environment:
     - CLUSTER_NAME=ELK
+    - UNICAST_HOSTS=es
+
